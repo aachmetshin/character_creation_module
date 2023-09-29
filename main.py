@@ -1,5 +1,21 @@
 from random import randint
 
+# Поместите сюда код объявленных классов.
+class Character:
+    def __init__(self, attack, defence, special):
+        self.attack = attack
+        self.defence = defence
+        self.special = special
+        
+class Warrior(Character):
+    ...
+    
+class Mage(Character):
+    ...
+    
+class Healer(Character):
+    ...
+
 
 def attack(char_name, char_class):
     if char_class == 'warrior':
